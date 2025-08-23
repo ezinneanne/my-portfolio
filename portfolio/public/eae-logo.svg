@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="300" height="300" viewBox="0 0 300 300" xmlns="http://www.w3.org/2000/svg">
+  <rect width="300" height="300" fill="#ffffff"/>
+  
+  <!-- Circle outline -->
+  <circle cx="150" cy="150" r="120" stroke="#222222" stroke-width="6" fill="#f8f8f8"/>
+
+  <!-- Text initials -->
+  <text x="50%" y="50%" text-anchor="middle" dominant-baseline="central" 
+        font-family="Helvetica, Arial, sans-serif" font-weight="bold" font-size="80" 
+        fill="#222222">
+    EAE
+  </text>
+
+  <!-- Accent line -->
+  <line x1="90" y1="210" x2="210" y2="210" stroke="#7B7B7B" stroke-width="4"/>
+</svg>
