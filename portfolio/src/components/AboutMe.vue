@@ -3,7 +3,7 @@
   <section id="about" class="bg-white py-20 md:py-28">
         <div class="container mx-auto px-6 grid md:grid-cols-5 gap-12 items-center">
         <div class="md:col-span-2">
-            <img src="https://placehold.co/400x400/6F4E37/FDFBF7?text=Your+Photo" alt="Portrait of Your Name" class="rounded-lg shadow-2xl w-full">
+            <img src="../assets/picture.jpg" alt="Portrait of Ezinne Anne Emilia" class="rounded-lg shadow-2xl w-full">
         </div>
         <div class="md:col-span-3">
             <h2 class="text-3xl font-bold text-primary mb-4">About Me</h2>
