@@ -1,1 +1,18 @@
 @import 'tailwindcss';
+
+body {
+    font-family: 'Inter', sans-serif;
+    background-color: #FDFBF7; 
+    color: #4A3F35; 
+}
+        
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Lora', serif;
+}
+
+.bg-primary { background-color: #6F4E37; } 
+.text-primary { color: #6F4E37; }
+.border-primary { border-color: #6F4E37; }
+.bg-secondary { background-color: #FDFBF7; }
+.text-secondary { color: #FDFBF7; }
+.accent-color { color: #A0522D; } 

@@ -9,21 +9,21 @@ const router = createRouter({
       name: 'home',
       component: HomeView,
     },
-    /*{
+    {
+      path: '/resume',
+      name: 'resume',
+      component: () => import('../views/ResumeView.vue'),
+    },
+    {
       path: '/about',
       name: 'about',
       component: () => import('../views/AboutView.vue'),
     },
     {
-      path: '/resources',
-      name: 'resources',
-      component: () => import('../views/ResourcesView.vue'),
+      path: '/projects',
+      name: 'projects',
+      component: () => import('../views/ProjectsView.vue'),
     },
-    {
-      path: '/pcosbot',
-      name: 'pcosbot',
-      component: () => import('../views/PCOSbotView.vue'),
-    },*/
   ],
 })
 
