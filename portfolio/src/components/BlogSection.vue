@@ -29,7 +29,7 @@
       <!-- CTA -->
       <div class="text-center mt-12">
         <a
-          href="#"
+          href="https://medium.com/@ezinneanne" rel="noopener noreferrer" target="_blank"
           class="bg-primary text-secondary font-bold py-3 px-6 rounded-lg shadow-lg hover:bg-opacity-90 transition-transform transform hover:scale-105"
         >
           Visit Blog

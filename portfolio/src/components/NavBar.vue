@@ -9,8 +9,8 @@
         <router-link to="/resume" class="nav-link">Resume</router-link>
         <router-link to="/about" class="nav-link">About Me</router-link>
         <router-link to="/projects" class="nav-link">Projects</router-link>
-        <router-link to="/blog" class="nav-link">Blog</router-link>
-        <router-link to="/contact" class="nav-link">Contact Me</router-link>
+        <a href="#blog" rel="noopener noreferrer" target="_blank" class="nav-link">Blog</a>
+        <a href='#contact' rel="noopener noreferrer" target="_blank" class='nav-link'>Contact Me</a>
       </div>
 
       <!-- Mobile Menu Button -->
@@ -28,8 +28,8 @@
         <router-link to="/resume" @click="toggleMenu" class="block py-2 px-6 text-gray-700 hover:bg-primary hover:text-secondary transition-colors duration-200">Resume</router-link>
         <router-link to="/about" @click="toggleMenu" class="block py-2 px-6 text-gray-700 hover:bg-primary hover:text-secondary transition-colors duration-200">About Me</router-link>
         <router-link to="/projects" @click="toggleMenu" class="block py-2 px-6 text-gray-700 hover:bg-primary hover:text-secondary transition-colors duration-200">Projects</router-link>
-        <router-link to="/" @click="toggleMenu" class="block py-2 px-6 text-gray-700 hover:bg-primary hover:text-secondary transition-colors duration-200">Blog</router-link>
-        <router-link to="/" @click="toggleMenu" class="block py-2 px-6 text-gray-700 hover:bg-primary hover:text-secondary transition-colors duration-200">Contact Me</router-link>
+        <a href="#blog" rel="noopener noreferrer" target="_blank" @click="toggleMenu" class="block py-2 px-6 text-gray-700 hover:bg-primary hover:text-secondary transition-colors duration-200">Blog</a>
+        <a href="#contact"  rel="noopener noreferrer" target="_blank" @click="toggleMenu" class="block py-2 px-6 text-gray-700 hover:bg-primary hover:text-secondary transition-colors duration-200">Contact Me</a>
       </div>
     </transition>
   </header>
