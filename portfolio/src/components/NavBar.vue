@@ -7,7 +7,7 @@
       <!-- Desktop Links -->
       <div class="hidden md:flex space-x-8 text-gray-700 font-bold">
         <router-link to="/resume" class="nav-link">Resume</router-link>
-        <router-link to="/about" class="nav-link">About Me</router-link>
+        <a href="#about" rel="noopener noreferrer" target="_blank" class="nav-link">About Me</a>
         <router-link to="/projects" class="nav-link">Projects</router-link>
         <a href="#blog" rel="noopener noreferrer" target="_blank" class="nav-link">Blog</a>
         <a href='#contact' rel="noopener noreferrer" target="_blank" class='nav-link'>Contact Me</a>
@@ -26,7 +26,7 @@
     <transition name="fade">
       <div v-if="isOpen" class="md:hidden bg-secondary pb-4">
         <router-link to="/resume" @click="toggleMenu" class="block py-2 px-6 text-gray-700 hover:bg-primary hover:text-secondary transition-colors duration-200">Resume</router-link>
-        <router-link to="/about" @click="toggleMenu" class="block py-2 px-6 text-gray-700 hover:bg-primary hover:text-secondary transition-colors duration-200">About Me</router-link>
+        <a href="#about" rel="noopener noreferrer" target="_blank" @click="toggleMenu" class="block py-2 px-6 text-gray-700 hover:bg-primary hover:text-secondary transition-colors duration-200">About Me</a>
         <router-link to="/projects" @click="toggleMenu" class="block py-2 px-6 text-gray-700 hover:bg-primary hover:text-secondary transition-colors duration-200">Projects</router-link>
         <a href="#blog" rel="noopener noreferrer" target="_blank" @click="toggleMenu" class="block py-2 px-6 text-gray-700 hover:bg-primary hover:text-secondary transition-colors duration-200">Blog</a>
         <a href="#contact"  rel="noopener noreferrer" target="_blank" @click="toggleMenu" class="block py-2 px-6 text-gray-700 hover:bg-primary hover:text-secondary transition-colors duration-200">Contact Me</a>

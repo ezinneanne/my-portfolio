@@ -8,10 +8,12 @@
         <div class="md:col-span-3">
             <h2 class="text-3xl font-bold text-primary mb-4">About Me</h2>
             <p class="text-gray-600 mb-4 leading-relaxed">
-                Hello! I'm a detail-oriented Documentation Engineer with a deep-seated fascination for machine learning. My expertise lies at the intersection of software development and communication. I specialize in creating robust documentation frameworks, tutorials, and API guides that empower developers and users alike.
+                Hello! I’m a Documentation Engineer with a strong passion for clear communication and knowledge sharing, and I’m expanding my journey into machine learning engineering. 
+                I specialize in creating structured documentation frameworks, API guides, and tutorials that make technical products more accessible and usable for developers and end users.
             </p>
             <p class="text-gray-600 mb-6 leading-relaxed">
-                On the ML front, I enjoy exploring natural language processing (NLP) and building models that can understand and generate human-like text. This dual focus allows me to not only build complex systems but also to explain them in a way that is clear, concise, and compelling.
+                Alongside my documentation expertise, I’m exploring machine learning by building models and experimenting with solutions that address real-world challenges. 
+                This blend of skills enables me to both develop impactful technologies and communicate them in a way that is accurate, approachable, and engaging.
             </p>
             <a href="#resume" class="text-primary font-bold hover:underline">View My Resume &rarr;</a>
         </div>
