@@ -9,6 +9,7 @@
           :key="project.title"
           class="bg-white rounded-lg shadow-lg overflow-hidden transform hover:-translate-y-2 transition-transform duration-300"
         >
+        
           <img
             :src="project.image"
             :alt="project.title"
