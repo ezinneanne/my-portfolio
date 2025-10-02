@@ -4,7 +4,7 @@
     <nav class="container mx-auto px-6 py-4 flex justify-between items-center">
       <p class="text-2xl font-bold text-primary">Ezinne Anne Emilia</p>
 
-      <!-- Desktop Links -->
+      <!-- Desktop Links sizes -->
       <div class="hidden md:flex space-x-8 text-gray-700 font-bold">
         <router-link to="/resume" class="nav-link">Resume</router-link>
         <a href="#about" rel="noopener noreferrer" target="_blank" class="nav-link">About Me</a>
