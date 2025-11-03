@@ -44,6 +44,8 @@
 
 <script setup>
 import { ref } from "vue";
+import pharmaImg from "../assets/pharma-compliance-agent.png";
+
 
 // reactive state using Composition API
 const projects = ref([
@@ -51,7 +53,7 @@ const projects = ref([
     title: "Multi-agent Pharma Compliance System",
     description:
       "An AI agent that validates pharma batch data, then automates compliance reports or corrective actions.",
-    image: "../assets/pharma-compliance-agent.png",
+    image: pharmaImg,
     tags: ["n8n", "Google Drive API", "Slack API", "Jira API", "Twilio API"],
     video: "#",
     documentation: "#"
