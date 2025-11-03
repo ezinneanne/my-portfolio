@@ -51,8 +51,8 @@ const projects = ref([
     title: "Multi-agent Pharma Compliance System",
     description:
       "An AI agent that validates pharma batch data, then automates compliance reports or corrective actions.",
-    image: "https://placehold.co/600x400/6F4E37/FDFBF7?text=Project+1",
-    tags: ["n8n", "Google Drive API", "SLack API", "Jira API", "Twilio API"],
+    image: "../assets/pharma-compliance-agent.png",
+    tags: ["n8n", "Google Drive API", "Slack API", "Jira API", "Twilio API"],
     video: "#",
     documentation: "#"
   },
