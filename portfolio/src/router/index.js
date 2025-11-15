@@ -9,22 +9,21 @@ const router = createRouter({
       name: 'home',
       component: HomeView,
     },
-    {
-      path: '/resume',
-      name: 'resume',
-      component: () => import('../views/ResumeView.vue'),
-    },
-    {
-      path: '/projects',
-      name: 'projects',
-      component: () => import('../views/ProjectsView.vue'),
-    },
-    {
-      path: '/about',
-      name: 'about',
-      component: () => import('../views/AboutView.vue'),
-    },
+    
   ],
+  // This part is new: it will handle scrolling to hash links
+  scrollBehavior(to, from, savedPosition) {
+    if (to.hash) {
+      return {
+        el: to.hash,
+        behavior: 'smooth',
+      }
+    }
+    if (savedPosition) {
+      return savedPosition
+    }
+    return { top: 0 } // Go to top of page on new route loads
+  },
 })
 
 export default router

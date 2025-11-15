@@ -6,11 +6,11 @@
 
       <!-- Desktop Links sizes -->
       <div class="hidden md:flex space-x-8 text-gray-700 font-bold">
-        <router-link to="/resume" class="nav-link">Resume</router-link>
-        <a href="#about" rel="noopener noreferrer" target="_blank" class="nav-link">About Me</a>
-        <router-link to="/projects" class="nav-link">Projects</router-link>
-        <a href="#blog" rel="noopener noreferrer" target="_blank" class="nav-link">Blog</a>
-        <a href='#contact' rel="noopener noreferrer" target="_blank" class='nav-link'>Contact Me</a>
+        <a href="#resume" class="nav-link">Resume</a>
+        <a href="#about" class="nav-link">About Me</a>
+        <a href="#projects" class="nav-link">Projects</a>
+        <a href="#blog" class="nav-link">Blog</a>
+        <a href="#contact" class='nav-link'>Contact Me</a>
       </div>
 
       <!-- Mobile Menu Button -->
@@ -25,11 +25,11 @@
     <!-- Mobile Menu -->
     <transition name="fade">
       <div v-if="isOpen" class="md:hidden bg-secondary pb-4">
-        <router-link to="/resume" @click="toggleMenu" class="block py-2 px-6 text-gray-700 hover:bg-primary hover:text-secondary transition-colors duration-200">Resume</router-link>
-        <a href="#about" rel="noopener noreferrer" target="_blank" @click="toggleMenu" class="block py-2 px-6 text-gray-700 hover:bg-primary hover:text-secondary transition-colors duration-200">About Me</a>
-        <router-link to="/projects" @click="toggleMenu" class="block py-2 px-6 text-gray-700 hover:bg-primary hover:text-secondary transition-colors duration-200">Projects</router-link>
-        <a href="#blog" rel="noopener noreferrer" target="_blank" @click="toggleMenu" class="block py-2 px-6 text-gray-700 hover:bg-primary hover:text-secondary transition-colors duration-200">Blog</a>
-        <a href="#contact"  rel="noopener noreferrer" target="_blank" @click="toggleMenu" class="block py-2 px-6 text-gray-700 hover:bg-primary hover:text-secondary transition-colors duration-200">Contact Me</a>
+        <a href="#resume" @click="toggleMenu" class="block py-2 px-6 text-gray-700 hover:bg-primary hover:text-secondary transition-colors duration-200">Resume</a>
+        <a href="#about" @click="toggleMenu" class="block py-2 px-6 text-gray-700 hover:bg-primary hover:text-secondary transition-colors duration-200">About Me</a>
+        <a href="#projects" @click="toggleMenu" class="block py-2 px-6 text-gray-700 hover:bg-primary hover:text-secondary transition-colors duration-200">Projects</a>
+        <a href="#blog" @click="toggleMenu" class="block py-2 px-6 text-gray-700 hover:bg-primary hover:text-secondary transition-colors duration-200">Blog</a>
+        <a href="#contact" @click="toggleMenu" class="block py-2 px-6 text-gray-700 hover:bg-primary hover:text-secondary transition-colors duration-200">Contact Me</a>
       </div>
     </transition>
   </header>
@@ -93,5 +93,9 @@ h1, h2, h3, h4, h5, h6 {
 .nav-link:hover::after {
   transform: scaleX(1); 
   transform-origin: bottom left;
+}
+
+html {
+  scroll-behavior: smooth;
 }
 </style>
