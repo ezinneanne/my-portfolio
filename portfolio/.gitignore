@@ -1,3 +1,6 @@
+src/components/ContactForm.vue
+src/components/TheProjects.vue
+
 # Logs
 logs
 *.log
