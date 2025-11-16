@@ -12,11 +12,11 @@
         </p>
         <p class="text-gray-600 mb-4 leading-relaxed">
           I work at the intersection of <strong>AI automation</strong> and <strong>technical communication</strong>, helping teams save time, simplify chaos, and actually understand their tools. 
-          Whether it’s designing smart workflows with <strong>n8n</strong>, <strong>Make</strong>, or <strong>Zapier</strong>, or creating structured API docs that make developers smile — I live for that moment when technology finally <em>makes sense</em> to people.
+          Whether it’s designing smart workflows with <strong>n8n</strong>, <strong>Make</strong>, or <strong>Zapier</strong>, or creating structured API docs that make developers smile. I live for that moment when technology finally <em>makes sense</em> to people.
         </p>
         <p class="text-gray-600 mb-4 leading-relaxed">
           Over the years, I’ve written docs that power products, built automations that run businesses, and told stories that connect users to technology. 
-          My mission is simple: to make tech work smarter — and help people feel confident using it.
+          My mission is simple: to make tech work smarter, and help people feel confident using it.
         </p>
         <p class="text-gray-600 mb-6 leading-relaxed">
           When I’m not building or writing, you’ll probably find me exploring new AI ideas, creating digital content, or watching a good film for inspiration.
