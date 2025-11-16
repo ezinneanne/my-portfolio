@@ -9,7 +9,8 @@
         <transition name="modal-inner" appear>
           <div
             v-if="modelValue"
-            class="bg-white rounded-lg shadow-2xl w-full max-w-3xl max-h-[90vh] flex flex-col"
+            class="bg-white rounded-lg shadow-2xl w-full max-w-3xl h-auto max-h-screen
+ flex flex-col"
           >
             <header
               class="flex justify-between items-center p-4 border-b border-gray-200"
