@@ -26,7 +26,7 @@
       </p>
       <div class="border border-gray-200 rounded-lg overflow-hidden">
         <iframe
-          src="/AutoResume.pdf"
+          src="/AutoResumee.pdf"
           class="w-full"
           height="500"
           title="Ezinne Anne Emilia's Resume"
@@ -34,7 +34,7 @@
       </div>
       <div class="text-center pt-4">
         <a
-          href="/AutoResume.pdf"
+          href="/AutoResumee.pdf"
           download
           class="bg-primary text-secondary font-bold py-2 px-6 rounded-lg shadow-lg hover:bg-opacity-90 transition-transform transform hover:scale-105"
         >
